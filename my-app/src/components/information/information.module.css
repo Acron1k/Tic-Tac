@@ -1,0 +1,41 @@
+.informationBlock {
+	color: rgb(107, 184, 201);
+	height: 100px;
+	width: auto;
+	text-align: center;
+}
+.gameName {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 100%;
+}
+.instructionText {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 65%;
+	padding: 0px 5px;
+}
+.resetButton {
+	background-color: rgb(22, 20, 20);
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0px 1px 2px 0px rgba(0, 255, 255, 0.7);
+	cursor: pointer;
+	text-align: center;
+	color: rgba(8, 195, 195, 0.7);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+	height: 50px;
+	width: 200px;
+	margin-top: 5px;
+}
+
+.resetButton:hover {
+	background-color: rgb(7, 48, 49);
+}
