@@ -22,10 +22,8 @@ export const Game = () => {
 			const [a, b, c] = WIN_PATTERNS[i];
 			if (field[a] === 'X' && field[b] === 'X' && field[c] === 'X') {
 				setIsGameEnded(true);
-				return; // Добавляем return, чтобы остановить проверку, если победа найдена
 			} else if (field[a] === '0' && field[b] === '0' && field[c] === '0') {
 				setIsGameEnded(true);
-				return; // Добавляем return, чтобы остановить проверку, если победа найдена
 			}
 		}
 
