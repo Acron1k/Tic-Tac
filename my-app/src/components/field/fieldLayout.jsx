@@ -21,9 +21,10 @@ export const FieldLayout = ({
 						setField((prevField) => {
 							const newField = [...prevField];
 							newField[index] = currentPlayer;
+							checkTheWinner(newField);
 							return newField;
 						});
-						checkTheWinner();
+						// checkTheWinner();
 						if (!isGameEnded) {
 							setCurrentPlayer((prevPlayer) => (prevPlayer === 'X' ? '0' : 'X'));
 							setIsGameStarted(true);
